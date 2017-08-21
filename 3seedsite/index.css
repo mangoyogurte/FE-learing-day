@@ -1,0 +1,127 @@
+﻿body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td{
+    margin:0;
+    padding:0;
+}
+body, button, input, select, textarea{
+    font-size:14px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-stretch:normal;
+    font-size-adjust:none;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:1.5;
+}
+ul, ol, li{
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+}
+a{color: black;text-decoration:none;}
+a:hover{text-decoration:underline;}
+fieldset, img{border:0 none;}
+:focus{outline:10px;}
+
+body{color: black;background: url("images/有种网首页2_02.png") repeat-x;}
+.container{width: 1213px;margin: 0 auto;text-align: left;}
+/*CSS精灵*/
+.sprite {background:url("images/有种网首页2_sprite.png"); width:454px;}
+.icon1{height: 14px;}
+.icon2{height: 51px;}
+.icon3{height: 74px;}
+.icon4{height: 48px;}
+.icon5{height: 13px;}
+.login{width:16px; background-position:-23px 0;}
+.signup{width:11px; background-position:-57px 0;}
+.iconleft{width:11px; background-position:-96px 0;}
+.iconright{width:11px; background-position:-129px 0;}
+.site{width:131px; background-position:0 -65px;}
+.custom{width:205px; background-position:0 -154px;}
+.separate{width:19px; background-position:0 -227px;}
+
+.header .head1{line-height: 36px;height: 36px;}
+.header .head1 p,.header .head1 ul{float: left;}
+.header .head1 ul{margin-left: 20px;}
+.header .head1 ul li{float: left;}
+.header .head1 ul li span{margin: 0 3px;}
+.header .head1 #ulright{float: right;position: relative;}
+.header .head1 #ulright li a img{float: left;margin-top: 11px;margin-right: 4px;}
+.header .head1 #ulright li span{margin: 0 8px;color: #d3e6cb;}
+
+.subnav{position:absolute;height:144px;width: 60px;background: #666666;margin-top: 6px;display: none;}
+.subnav a{color: white;}
+
+.header .head2{padding-top: 27px;height: 97px;overflow: hidden;}
+.header .head2 div,.header .head2 img{float: left;}
+.header .head2 .imgicon3{margin-right: 56px;margin-left: 24px;}
+.header .head2 .imgicon4{margin-right: 56px;margin-left: 32px;}
+.header .head2 img{margin-left: 10px;}
+.header .head2 .headsearch{width: 500px;overflow: hidden;height: 66px;}
+.header .head2 .headsearch input{width: 400px;line-height: 40px;height: 40px;font-size: 22px;float: left;}
+.header .head2 .headsearch button{border: 0;width: 93px;color: white;background-color: #339900;cursor: pointer;height: 47px;margin-top: -2px;float: left;}
+.header .head2 .headsearch span{margin-left: 8px;float: left;height: 21px;}
+.header .head2 .headsearch span b a{font-weight: normal;color: #777777;}
+.header .head3{height: 41px;}
+.header .head3 ul{overflow: hidden;line-height: 40px;}
+.header .head3 ul li{float: left;margin-right: 30px;}
+.header .head3 ul li.lileft{width: 144px;background-color: #337520;padding-left: 60px;}
+.header .head3 ul .lileft .imgicon5{float: left;margin-top: 13px;margin-right: 6px;}
+.header .head3 ul li a{color: white;font-weight: bold;}
+.header .head4{overflow: hidden;height: 406px;position: relative;}
+.header .head4 div,.header .head4 img{float: left;}
+.header .head4 .classify{height: 394px;width: 204px;padding: 20px 0 8px 0;background-color: #016100;float: left;}
+.header .head4 .classify li.nav{height: 26px;line-height: 26px;padding-left: 12px;}
+.header .head4 .classify li.nav .sub{position: absolute;width: 800px;height: 390px;background: #afd760;left: 204px;top: 0;padding: 10px 0 0 10px;display: none;}
+.header .head4 .classify li.nav:hover {background: #666666;}
+.header .head4 .classify li.nav:hover .sub{display: block;}
+.header .head4 .classify li a{color: white;font-weight: normal;}
+.header .head5{margin-top: 3px;overflow: hidden;}
+.header .head5 div,.header .head5 img{float: left;}
+.header .head5 div.divmiddle{width: 689px;background: url("images/有种网首页2_03.png") no-repeat;height: 145px;margin-left: 4px;}
+.header .head5 div.divmiddle ul{overflow: hidden;}
+.header .head5 div.divmiddle ul li{float: left;margin-top: 26px;margin-left: 32px;}
+.header .head5 div.divmiddle ul li.lileft2{margin-left: 29px;}
+.header .head5 div.divmiddle ul li.lileft2 .imgleft{margin-top: 20px;margin-right: 20px;}
+.header .head5 div.divmiddle ul li .imgright{margin-top: 20px;margin-left: 20px;}
+.header .head5 div.divmiddle ul li a{overflow: hidden;}
+.header .head5 div.divmiddle ul li a:hover span{text-decoration: underline;}
+.header .head5 div.divmiddle ul li a span,.header .head5 div.divmiddle ul li a img{float: left;}
+.header .head5 div.divmiddle ul li a span{width: 110px;color: #006600;font-size: 16px;font-weight: bold;margin-right: 4px;margin-top: 10px;}
+.header .head5 div.divright{width: 312px;background: url("images/有种网首页2_04.jpg") no-repeat;height: 145px;margin-left: 4px;font-weight: bold;}
+.header .head5 div.divright span{width: 153px;height: 40px;display: inline-block;font-size: 16px;text-align: center;line-height: 40px;}
+.header .head5 div.divright .span1{color: red;}
+.header .head5 div.divright .span2{background-color: #99cc33;}
+.header .head5 div.divright div{width: 270px;text-overflow: ellipsis;overflow:hidden;white-space:nowrap;font-weight: 500;}
+.header .head5 div.divright div a{color: #666666;}
+.header .head5 div.divright .divmarg{margin: 12px 0 0 8px;}
+
+.main .main1{margin-top: 12px;overflow: hidden;clear: both;}
+.main .main1 .img1{margin-bottom: 60px;margin-left: 0;}
+.main .main1 a img{margin-left: 20px;margin-right: 42px;}
+.main .main2{overflow: hidden;margin-top: 30px;height: 431px;}
+.main .main2 img,.main .main2 div{float: left;}
+.main .main2 .img2{margin-bottom: 10px;}
+.main .main2 .main2right{background: url("images/有种网首页2_29.png") no-repeat;width: 846px;height: 374px;overflow: hidden;}
+.main .main2 .main2right div{width: 280px;margin: 30px 60px 0 80px;height: 100px;}
+.main .main2 .main2right div a img{margin-right: 80px;}
+.main .main2 .main2right div a p{margin-top: 8px;color: #05780a;font-size: 20px;font-weight: bold;height: 24px;}
+.main .main2 .main2right div a .lineation{text-decoration: line-through;color: #666666;}
+.main .main2 .main2right ul{overflow: hidden;float: left;}
+.main .main2 .main2right ul li{width: 196px;margin: 40px 0 0 12px;float: left;}
+.main .main2 .main2right ul li a img{margin: 0 88px 16px 64px;}
+.main .main2 .main2right ul li a p{margin-bottom: 8px;}
+.main .main2 .main2right ul li a .money{color: #05780a;font-size: 20px;font-weight: bold;height: 24px;}
+.main .main2 .main2right ul li a .lineation{text-decoration: line-through;color: #666666;}
+.main .maintop{margin-top: 24px;}
+.main .imgfoot{margin: 24px 0 30px 0;}
+
+.footer .foot1{overflow: hidden;margin-top: 50px;}
+.footer .foot1 ul{float: left;margin-right: 80px;margin-left: 40px;}
+.footer .foot1 ul .lititle a{font-size: 16px;font-weight: bold;color: black;}
+.footer .foot1 ul li a{color: #777777;}
+.footer .foot2{border-top: 1px solid #e5e5e5;margin-top: 20px;padding-top: 20px;}
+.footer .foot2 ul{overflow: hidden;margin: 0 auto;padding-left: 212px;}
+.footer .foot2 ul li{float: left;}
+.footer .foot2 ul li a,.footer .foot2 ul li span{color: #666666;}
+.footer .foot2 ul li span{margin: 0 10px;}
+.footer .foot2 p{color: #666666;margin-top: 10px;padding-left: 414px;}

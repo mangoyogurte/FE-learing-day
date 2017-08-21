@@ -1,0 +1,263 @@
+/* css reset */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td{
+    margin:0;
+    padding:0;
+}
+body, button, input, select, textarea{
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-stretch:normal;
+    font-size-adjust:none;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:1.5;
+}
+ul, ol, li{
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+}
+em{
+    font-style: normal;
+}
+a{color: black;text-decoration:none;}
+a:hover{text-decoration:underline;}
+fieldset, img{border:0 none;}
+:focus{outline:10px;}
+
+/* css sprite */
+.sprite{background:url("../images/wedding_55.png"); width:150px;}
+.icon1{height: 4px;}
+.icon2{height: 12px;}
+.icon3{height: 13px;}
+.icon4{height: 16px;}
+
+.down1{width: 8px;background-position:-13px 0;margin-bottom: 2px;}
+.down2{width: 8px;background-position:0 -46px;}
+.down4{width: 8px;background-position:0 -82px;margin-bottom: 2px;}
+
+.car{width: 14px;background-position:-38px 0;margin-right: 4px;}
+.searchicon2{width: 12px;background-position:-74px 0;}
+.new{width: 21px;background-position:-119px 0;}
+
+.down3{width: 14px;background-position:-96px 0;}
+.searchicon1{width: 12px;background-position:0 -61px;margin-right: 4px;margin-top: 6px;}
+
+.icon{width: 14px;background-position:0 -16px;}
+
+
+.fl{float: left;}
+.fr{float: right;}
+.clear{clear: both;}
+body{background: url('../images/wedding_01.png') repeat-x;}
+.container{width: 992px;margin: 0 auto;position: relative;}
+
+.header{height: 199px;}
+.header .head a{margin-left: 4px;color: #656565;}
+.head{line-height: 26px;}
+
+.head .topUl{float: right;}
+.head .topUl ul li,.topUl ul span{float: left;}
+.head .topUl ul li,.topUl ul p{display: inline-block;}
+.head .topUl li{padding: 0 4px;height: 25px;line-height: 25px;}
+.head .topUl li p{font-size: 10px;color: #ff5503;font-weight: bold;margin: 0 2px;}
+.head .topUl li:hover{background: #ffffff;border: 1px solid #d8d8d8;height: 23px;padding: 0 3px;line-height: 24px;}
+.head .topUl li:hover a{text-decoration:none;}
+.head .topUl li.li6 a,.head .topUl li.li6 img{float: left;}
+.head .topUl li.li6 .searchdown{margin-top: 11px;}
+.head .topUl li.li6:hover .searchdown{margin-top: 10px;}
+.head .topUl li.li6:hover .searchicon1{margin-top: 5px;}
+
+.topUl .subli{position: relative;}
+.topUl li .subnav{position:absolute;height:144px;width: 60px;background: #666666;margin-top: 6px;z-index: 1000;display: none;}
+.topUl li .subnav a{color: white;margin: 0;}
+.topUl li .subnav ul li{width: 60px;text-align: center;padding: 0;}
+.topUl li #subnav4{top:25px;}
+.topUl li:hover #subnav4{top:24px;}
+.topUl li #subnav4 ul li{padding-left: 16px;width: 44px;}
+.topUl li .subnav ul li:hover{width: 60px;background: #ffffff;border: 0;padding: 0;height: 25px;}
+.topUl li .subnav ul li:hover a{color: black;}
+
+.search1{height: 76px;}
+.search1 img{margin-top: 20px;}
+.search1 span{margin-top: 40px;margin-left: 10px;color: #656565;}
+.search1 img.change{margin: 42px 0 0 2px;}
+.search1{position: relative;}
+
+
+
+.searchbox{margin-top: 8px;}
+.searchbox ul{overflow: hidden;text-align: center;line-height: 20px;}
+.searchbox ul li{width: 55px;height: 20px;}
+.searchbox ul li a{color: black;text-decoration: none;}
+.searchbox ul li.active{border: 1px solid #f27b03;border-top-left-radius: 4px;border-top-right-radius: 4px;background: #f27b03;}
+.searchbox ul li.active a{color: white;}
+.searchbox input[type="text"]{width: 475px;height: 22px;border: 3px solid #f27b03;text-indent: 20px;background: url('../images/wedding_56.png') 5px 5px no-repeat;}
+.searchbox input[type="button"]{word-spacing: 4px;font-weight: 600;color: #ffffff;width: 101px;height: 28px;background: #fba117;border: 1px solid #d45103;border-bottom-right-radius: 4px;border-top-right-radius: 4px;}
+.nav{position: relative;font-size: 14px;height: 63px;}
+.nav ul{text-align: center;line-height: 26px;}
+.nav ul li.navLi{float: left;height: 27px;border: 1px solid #ffffff;border-bottom: none;padding: 0 20px;}
+.nav ul li.navLi a{text-decoration: none;}
+.nav ul li.active{border: 1px solid #d2d2d2;border-bottom: 2px solid #ffffff;border-top-left-radius: 4px;border-top-right-radius: 4px;font-weight: bold;}
+.nav ul li.navLi a{color: black;}
+.nav ul li.navLinew{margin-top: -6px;height: 33px;padding-left: 28px;padding-right: 12px;}
+.nav ul li.navLinew a img{margin: 0 0 12px -6px;}
+.nav ul li div.act{display: block;}
+.nav ul li .subnav{position: absolute;top:26px;left: 7px;padding-top: 10px;display: none;}
+.nav ul li.last1 .subnav{left: 43px;}
+.nav ul li.last2 .subnav{left: 113px;}
+.nav ul li.last3 .subnav{left: 183px;}
+
+.nav ul li .subnav ul{overflow: hidden;}
+.nav ul li .subnav ul li,.nav .subnav ul span{float: left;}
+.nav ul li .subnav ul span{height: 18px;border-left: 1px dashed #afafaf;}
+.nav ul li .subnav ul li{height: 18px;line-height: 18px;padding-left: 14px;padding-right: 14px;}
+.nav ul li .subnav ul li:hover{background: #eb4a69;}
+.nav ul li .subnav ul li:hover a{color: #ffffff;}
+.nav .text span{color: #808080;font-size: 12px;margin-left: 8px;line-height: 34px;}
+.nav .text span img{margin-right: 4px;}
+.split{border-top: 1px dashed #d8d8d8;margin-bottom: 4px;}
+.search2{position: relative;}
+.search2 .option{width: 80px;height: 22px;border: 1px solid #cccccc;text-align: center;line-height: 22px;background: #f9f9f9;margin-left: 10px;}
+.search2 .option img{margin: 0 0 2px 2px;}
+.search2 input[type="text"]{height: 22px;border: 1px solid #cccccc;border-left: none;text-indent: 4px;}
+.search2 input[type="button"]{width: 55px;height: 24px;border: 1px solid #cccccc;background: #f8f8fa;margin-left: 6px;color: #df4966;font-size: 12px;font-weight: bold;cursor: pointer;}
+.search2 ul{overflow: hidden;}
+.search2 ul li{float: left;margin-left: 8px;color: #808080;line-height: 24px;}
+.search2 ul li a{color: #808080;}
+
+.search2 .submenu{left: 10px;top: 23px;}
+.search2 .submenu ul li{float: none;margin: 0;}
+.submenu{position: absolute;z-index: 1000;left: 238px;background: #666666;height:96px;width: 60px;text-align: center;line-height: 24px;}
+.submenu ul li a{color: white;display: block;}
+.miss{display: none;}
+
+.main{margin-top: 10px;clear: both;}
+.main1{overflow: hidden;}
+.main1 .aside{background: url("../images/wedding_03.png") no-repeat;width: 190px;height: 749px;padding-top: 1px;margin-right: 10px;}
+.main1 .aside .aside1{width: 160px;margin: 90px auto 0 auto;}
+.main1 .aside .aside1 ul{width: 164px;list-style-type:square;overflow: hidden;list-style-position:inside;border-bottom: 1px solid #f1f1f1;margin-top: 8px;}
+.main1 .aside .aside1 ul.ul1{margin-top: 12px;}
+.main1 .aside .aside1 ul li{list-style-type:square;float: left;list-style-position:inside;}
+.main1 .aside .aside1 ul li:first-child{margin-right: 26px;}
+.main1 .aside .aside2,.main1 .aside .aside3{margin: 50px auto 0 auto;}
+
+
+.main1 .spread1{margin-top: 10px;overflow: hidden;}
+.main1 .spread1 .slide{position: relative;margin-right: 10px;}
+.main1 .spread1 .slide ul.picture{width: 540px;height: 290px;}
+.main1 .spread1 .slide ul.picture li{position: absolute;display: none;}
+.main1 .spread1 .slide ul.picture li.now{display: block;}
+.main1 .spread1 .slide ul.index{position: absolute;top: 260px;left: 420px;overflow: hidden;}
+.main1 .spread1 .slide ul.index li{float: left;margin-right: 4px;}
+.main1 .spread1 .slide ul.index li a {}
+.main1 .spread1 .slide ul.index li a p{width: 23px;height: 23px;border-radius: 12px;border: 1px solid #e6e4df;background: #ffffff;text-align: center;line-height: 23px;font-weight: bold;}
+.main1 .spread1 .slide ul.index li.now a p{border: 1px solid #ffffff;background: #000000;color: white;}
+
+
+.main1 .spread1 .right{width: 239px;}
+.main1 .spread1 .right .hot{background: url('../images/wedding_11.png') no-repeat;width: 229px;height: 232px;overflow: hidden;padding-left: 10px;padding-top: 13px;}
+.main1 .spread1 .right .hot span{float: left;}
+.main1 .spread1 .right .hot .hot1{padding-top: 1px;}
+.main1 .spread1 .right .hot .hot1 .span1{font-size: 18px;font-weight: bold;margin-right: 8px;}
+.main1 .spread1 .right .hot .hot1 .span2{color: #808080;margin-top: 8px;margin-right: 4px;}
+.main1 .spread1 .right .hot .hot1 .span3{width: 23px;height: 20px;background: #1e1d22;color: #ffffff;line-height: 20px;text-align: center;border-radius: 2px;font-size: 16px;margin: 0 1px 0 1px;}
+.main1 .spread1 .right .hot .hot1 .num{overflow: hidden;margin-top: 3px;}
+.main1 .spread1 .right .hot .hot1 .num span{font-weight: bold;}
+.main1 .spread1 .right .hot .hot2{overflow: hidden;margin-top: 10px;}
+.main1 .spread1 .right .hot .hot2 .text{width: 86px;margin-left: 10px;}
+.main1 .spread1 .right .hot .hot2 .text .money{color: #808080;text-decoration: line-through;}
+.main1 .spread1 .right .hot .hot2 .text .nowmoney{margin-top: 30px;margin-bottom: 10px;}
+.main1 .spread1 .right .hot .hot2 .text .nowmoney span{float: none;color: #de4a66;font-size: 18px;}
+.main1 .spread2{margin-top: 16px;}
+.main1 .spread2 .text{overflow: hidden;}
+.main1 .spread2 .text span{font-weight: bold;float: left;}
+.main1 .spread2 .text .span1{font-size: 18px;border-bottom: 2px solid #de4a66;}
+.main1 .spread2 .text .span2{font-size: 16px;color: #de4a85;border-bottom: 2px solid #cfccd7;margin-top: 3px;padding-left: 6px;}
+.main1 .spread2 .text .span4{text-align: right;border-bottom: 2px solid #cfccd7;padding-left: 320px;margin-top: 9px;font-weight: normal;}
+.main1 .spread2 .text .span4 em{color: #de4a85;}
+.main1 .spread2 .picture2{margin-top: 10px;}
+.main1 .spread2 .picture2 ul{overflow: hidden;}
+.main1 .spread2 .picture2 ul li{float: left;margin-right: 2px;height: 382px;width: 194px;overflow: hidden;}
+.main1 .spread2 .picture2 ul li a img{margin-top: 4px;}
+.main1 .spread2 .picture2 ul li a hr{border-top: 1px solid #f1f1f1;margin-top: 2px;margin-bottom: 10px;width: 180px;}
+.main1 .spread2 .picture2 ul li a button{width: 29px;height: 31px;border: 1px solid #ffdce3;background: white;color: #de4966;line-height: 15px;cursor: pointer;font-weight: bold;}
+.main1 .spread2 .picture2 ul li a span.popularity{line-height: 31px;height: 31px;margin-left: 6px;color: #818181;}
+.main1 .spread2 .picture2 ul li a span.popularity em{color: black;}
+.main1 .spread2 .picture2 ul li a span.text{display: block;margin-top: 4px;}
+.main2{margin-top: 10px;}
+.title{overflow: hidden;}
+.title .left{width: 190px;}
+.title .left .hr1{border-top: 2px solid #de4a66;width: 190px;margin-top: 3px;}
+.title .right{width: 790px;margin-top: 3px;}
+.title .right ul{overflow: hidden;margin-right: 24px;margin-top: 8px;margin-bottom: 1px;}
+.title .right ul li,.title ul span{float: left;}
+.title .right ul li a,.title ul span{color: #808080;}
+.title ul span{margin: 0 5px 0 5px;}
+.title .right button{color: #ffffff;background: #e15973;border-top-left-radius: 4px;border-top-right-radius: 4px;border: 1px solid #e15973;width: 46px;height: 20px;margin-top: 7px;cursor: pointer;}
+.title .right .hr2{border-top: 2px solid #d0ccd7;width: 788px;}
+
+.pic{margin-top: 8px;}
+.pic ul{overflow: hidden;position: relative;}
+.pic ul li{float: left;margin-right: 2px;position: relative;height: 340px;margin-top: 2px;}
+.main2 .pic ul li.pic130{height: 130px;}
+.pic ul li a .price{position: absolute;bottom: 0;right: 0;}
+.pic ul li a .price .p1{width: 84px;height: 22px;line-height: 22px;text-align: center;background: #ffffff;}
+.pic ul li a .price .p2{width: 84px;height: 25px;line-height: 25px;text-align: center;background: #da546d;color: #ffffff;font-size: 16px;}
+.pic ul li a .price .p2 em{font-size: 12px;}
+.pic ul li a .shadow{background: rgba(0,0,0,0.8);width: 100%;height: 100%;position: absolute;top: 0;}
+
+.brand{margin-top: 14px;overflow: hidden;}
+.brand .aside{width: 26px;height: 93px;background: #cccccc;color: #ffffff;font-size: 18px;text-align: center;font-weight: bold;line-height: 20px;padding-top: 20px;}
+.brand .right{width: 965px;height: 113px;border-right: 1px solid #e5e5e5;background: #f5f5f5;}
+.brand .right ul{margin-top: 12px;}
+.brand .right .figure{position: relative;width: 69px;height: 57px;border: 1px solid #e6e6e6;background: #ffffff;border-radius: 2px;text-align: center;padding-top: 12px;}
+.brand .right .special img{margin-top: 10px;}
+.brand .right .figure p{position: absolute;bottom: 4px;width: 69px;text-align: center;}
+.brand .right .text{margin-top: 3px;width: 69px;text-align: center;}
+.brand .right ul{overflow: hidden;}
+.brand .right ul li{float: left;margin-left: 24px;}
+.main3{margin-top: 15px;}
+.main3 .title .left .hr1{margin-top: 1px;}
+.main3 .pic ul li.pic323{height: 323px;}
+.main3 .pic ul li.pic3232{height: 323px;margin-right: 0;}
+.main3 .pic ul li.pic523{height: 523px;}
+.main3 .pic ul li.pic198{height: 198px;margin-right: 0;}
+.main3 .pic ul li.pic1982{height: 198px;position: absolute;top: 325px;}
+.main4{margin-top: 15px;}
+.main4 .title .left .hr1{margin-top: -2px;}
+.main4 .pic ul li.pic323{height: 323px;}
+.main4 .pic ul li.pic266{height: 266px;}
+.main4 .pic ul li.pic523{height: 523px;}
+.main4 .pic ul li.pic255{height: 255px;position: absolute;top: 268px;left: 192px;}
+.main4 .pic ul li.pic198{height: 198px;position: absolute;top: 325px;}
+.main4 .pic ul li.pic5232{height: 523px;margin-right: 0;}
+
+.footer{margin-top: 16px;}
+.footer1 ul{overflow: hidden;}
+.footer1 ul li{float: left;}
+.footer1 ul li a div{width: 246px;height: 130px;border: 1px solid #e8e8e8;border-right: none;}
+.footer1 ul li a div.last{border: 1px solid #e8e8e8;}
+.footer2{width: 964px;height: 294px;background: #e5e5e5;margin-top: 16px;padding-top: 30px;padding-left: 26px;}
+.footer2 ul.ul1{overflow: hidden;}
+.footer2 ul.ul1 li{width: 290px;height: 98px;margin-right: 29px;float: left;}
+.footer2 ul.ul1 li p{height: 23px;line-height: 22px;color: #ffffff;background: #989898;font-size: 14px;text-align: center;}
+.footer2 .message{overflow: hidden;margin-top: 26px;}
+.footer2 .message div{float: left;margin-right: 47px;}
+.footer2 .message div p{font-size: 16px;font-weight: bold;border-bottom: 1px solid #c9c9c9;width: 190px;margin-bottom: 16px;}
+.footer2 .message div ul li{margin-bottom: 4px;}
+.footer3{margin-top: 16px;}
+.footer3 hr{border-top: 1px solid #d1d7dc;}
+.footer3 ul{overflow: hidden;margin-top: 13px;}
+.footer3 ul li{float: left;margin-left: 21px;}
+.footer3 ul li a{color: #3366cc;}
+.footer3 ul.ul2{margin-left: 50px;}
+.footer3 ul.ul2 li,.footer3 ul.ul2 span{float: left;}
+.footer3 ul.ul2 li{padding-left: 8px;padding-right: 8px;margin-left: 0;}
+.footer3 p{width: 254px;margin: 13px auto 0 auto;}
+
+.side1{position: absolute;z-index: 9999;top: 230px;;left: 1000px;}
+
+
+

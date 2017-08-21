@@ -1,0 +1,85 @@
+﻿body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td{
+   margin:0;
+   padding:0;
+}
+body, button, input, select, textarea{
+   font-size:12px;
+   font-family:Arial, Helvetica, sans-serif;
+   font-style:normal;
+   font-stretch:normal;
+   font-size-adjust:none;
+   font-variant:normal;
+   font-weight:normal;
+   line-height:1.5;
+}
+ul, ol, li{
+   list-style-image:none;
+   list-style-position:outside;
+   list-style-type:none;
+}
+a{color: black;text-decoration:none;}
+a:hover{text-decoration:underline;}
+fieldset, img{border:0 none;}
+:focus{outline:10px;}
+
+body{background-color: white;}
+.container{width:950px;background-color: #eff9de;margin: 0 auto;text-align: left;}
+
+.header ul{overflow: hidden;background: url("images/装饰工程有限公司1_02.gif") no-repeat;padding: 12px 0 12px 0;margin-top: -5px;}
+/*for   IE6*/
+.header ul{-padding-bottom: 35px;}
+.header ul li{float: left;color: white;width: 105px;text-align:center;font-size: 15px;font-weight: bold;}
+.header ul li a{color: white;}
+.header ul li a:hover{color: black;}
+
+.main{width:950px;overflow: hidden;}
+/*for   IE6*/
+.main img.i6{-padding-top:5px;}
+.main img.i29{-padding-top:10px;}
+.main .left1{width: 208px;float: left;}
+.main .left1 img{margin-top: -6px;}
+.main .left1 ul{margin-left: 43px;}
+.main .left1 ul li{margin: 10px 0 18px 0;}
+.main .middle1{width: 374px;float: left;text-align: justify;}
+.main .middle1 img{margin-top: -9px;margin-left: -1px;}
+.main .middle1 p{width: 320px;text-indent:2em;line-height: 25px;margin-left: 16px;margin-top: 5px;}
+.main .middle1 p a{color: #9bc84c;}
+.main .right1{width: 368px;float: left;}
+.main .right1 img.i6{margin-top: -9px;}
+.main .right1 img.i12{margin-left: 60px;}
+.main .right1 img.i14{margin-left: 15px;}
+.main .right1 ul{overflow: hidden;width: 354px;height: 153px;padding: 12px 0 0 12px;background: url("images/装饰工程有限公司1_48.gif") no-repeat;}
+.main .right1 ul li{background: url("images/装饰工程有限公司1_49.gif") no-repeat 2px 7px;float: left;width: 150px;padding: 0 0 2px 12px;margin-right: 15px;}
+.main .left2{float: left;width: 405px;}
+/*for IE7  IE6*/
+.main .left2{*+margin-left: -208px;}
+.main .left2{-margin-left: 0;}
+
+.main .left2 img{margin-top: -14px;}
+.main .left2 ul{background: url("images/装饰工程有限公司1_50.png") no-repeat;margin-top: -6px;margin-left: -5px;padding: 12px 0 50px 50px;width: 360px;}
+.main .left2 ul li{margin: 9px 0 9px 0;}
+.main .left2 ul li.l1 input{width: 180px;border: 1px solid #82a700;}
+.main .left2 ul li.l2{margin-left: -12px;}
+.main .left2 ul li.l2 input{width: 180px;border: 1px solid #82a700;}
+.main .left2 ul li.l3{margin-left: -12px;}
+.main .left2 ul li.l3 input{width: 250px;border: 1px solid #82a700;}
+.main .left2 ul li.l4{margin-left: 3px;}
+.main .left2 ul li.l4 input{width: 250px;border: 1px solid #82a700;}
+.main .left2 ul li.l5{margin-left: 12px;}
+.main .left2 ul li.l5 input{width: 250px;border: 1px solid #82a700;}
+.main .left2 ul li.l6{margin-left: -12px;}
+.main .left2 ul li.l6 textarea{height: 82px;width: 270px;border: 1px solid #82a700;resize: none;}
+.main .left2 ul li.l6 label{float: left;}
+.main .left2 ul li.l7{padding-left: 80px;}
+.main .left2 ul li.l7 button{background: url("images/装饰工程有限公司1_51.gif") no-repeat -1px 2px;width: 63px;height: 30px;border: 0 none;cursor: pointer;}
+.main .right2{float: left;}
+.main .right2 img.i30{margin-top: -14px;}
+.main .right2 ul{overflow: hidden;width: 510px;margin-left: 16px;}
+.main .right2 ul li{float: left;}
+.main .right2 ul li img{margin: 15px 10px 15px 10px;}
+
+.footer{border-top: 3px solid black;margin-top: 10px;width: 930px;text-align: center;width: 950px;}
+.footer p{margin: 8px 0 0 0;}
+.footer p a{margin:0 4px 0 4px;}
+.footer p a:hover{color: #f60;}
+.footer p strong{color: red;margin-left: 10px;}

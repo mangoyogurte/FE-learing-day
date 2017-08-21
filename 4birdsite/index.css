@@ -1,0 +1,138 @@
+﻿body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td{
+    margin:0;
+    padding:0;
+}
+body, button, input, select, textarea{
+    font-size:14px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-stretch:normal;
+    font-size-adjust:none;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:1.5;
+}
+ul, ol, li{
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+}
+a{color: black;text-decoration:none;}
+a:hover{text-decoration:underline;}
+fieldset, img{border:0 none;}
+:focus{outline:10px;}
+/*CSS精灵(用户中心)*/
+.sprite{background:url("images/精灵2.png"); width:227px;}
+.icon1{height: 25px;}
+.icon2{height: 16px;}
+.user{width:25px; background-position:0 -47px;}
+.share1{width:16px; background-position:-25px 0;}
+.share2{width:16px; background-position:-54px 0;}
+.share3{width:16px; background-position:-84px 0;}
+.share4{width:16px; background-position:-115px 0;}
+.share5{width:16px; background-position:-146px 0;}
+.share6{width:16px; background-position:-172px 0;}
+.mannember{width:42px; background-position:0 -97px;}
+/*CSS精灵*/
+.sprite2{background:url("images/精灵1.png"); width:227px;}
+.icon3{height: 13px;}
+.icon4{height: 16px;}
+.icon5{height: 14px;}
+.icon6{height: 12px;}
+.icon7{height: 25px;}
+.flag1{width:19px; background-position:-22px 0;}
+.flag2{width:19px; background-position:-53px 0;}
+.more{width:44px; background-position:-153px 0;}
+.contact1{width:16px; background-position:0 -19px;}
+.contact2{width:12px; background-position:0 -41px;}
+.contact3{width:13px; background-position:0 -65px;}
+.contact4{width:16px; background-position:0 -88px;}
+.contact5{width:16px; background-position:0 -117px;}
+.iconleft{width:25px; background-position:-82px 0;}
+.iconright{width:25px; background-position:-119px 0;}
+
+body{color: black;background: url("images/菜鸟网站_02.png") repeat-x;}
+.container{width: 980px;margin: 0 auto;text-align: left;height: 1200px;}
+.right{float: right;}
+.left{float: left;}
+.fontmax{font-size: 16px;}
+.fontmin{font-size: 12px;color: #6c6c6c;}
+
+.header .head1{height: 98px;overflow: hidden;}
+.header .head1 div.left p{color: #49b849;font-size: 20px;letter-spacing: 2px;margin-top: 16px;}
+.header .head1 div.left span{color: #c3c5c4;font-size: 12px;}
+.header .head1 div.right{margin-top: 10px;overflow: hidden;}
+.header .head1 div.right img{margin-right: 4px;}
+.header .head1 div.right span a{color: #49b849;font-size: 12px;}
+.header .head1 div.right span.line{margin: 0 4px;color: #49b849;}
+.header .head1 img{clear: right;margin-top: 4px;}
+.header .head1 div.right .welcome{color: #49b849;font-size: 12px;margin-right: 4px;margin-top: 2px;}
+.header .head1 div.right .logout{margin-right: 10px;display: none;}
+.header .head2{height: 47px;}
+.header .head2 ul{overflow: hidden;background: url("images/菜鸟网站_01.png") -2px 6px no-repeat;}
+.header .head2 ul li,.header .head2 ul span{float: left;}
+.header .head2 ul li a{padding-left: 25px;width: 83px;display: block;}
+.header .head2 ul li a b{width: 83px;display: block;height: 31px;padding-top: 16px;color: white;}
+.header .head2 ul li a b.padleft{padding-left: 15px;width: 70px;}
+.header .head2 ul li a:hover{background: url("images/菜鸟网站_03_03.png") left top no-repeat;text-decoration: none;}
+.header .head2 ul li a:hover b{background: url("images/菜鸟网站_03_04.png") right top no-repeat;text-decoration: none;}
+
+#head3{position:relative;width:980px;height:354px;background:#fff;}
+#head3 .list{position:relative;width:980px;height:354px;overflow:hidden;}
+#head3 .list li{position:absolute;top:0;left:0;width:490px;height:170px;opacity:0;filter:alpha(opacity=0);}
+#head3 .list li.current{opacity:1;filter:alpha(opacity=100);}
+#head3 img.forward,#head3 img.next{top: 180px;position: absolute;z-index: 1000;cursor: pointer;display: none;}
+#head3 img.next{right: 0;}
+
+.main .main1{overflow: hidden;background: url("images/菜鸟网站_07.png") no-repeat;height: 66px;position: relative;}
+.main .main1 div.left{font-size: 12px;overflow: hidden;margin: 16px 0 0 16px;}
+.main .main1 div.left div{margin-top: 2px;margin-left: 8px;}
+.main .main1 div.left div span.fontmax{font-weight: bold;}
+.main .main1 div.left div button{border: none;cursor: pointer;background: url("images/菜鸟网站_06.png") no-repeat;width: 45px;height: 24px;color: white;margin: 0 4px;}
+.main .main1 div.left div input{border: 1px solid #dadada;padding-left:4px;}
+.main .main1 div.left div input.password{background: url("images/菜鸟网站_08.png") 4px 4px no-repeat;padding-left:20px;border: 1px solid #dadada;background-color: white;}
+.main .main1 div.right{color: #178c17;font-size: 12px;margin: 20px 19px 0 0;position: absolute;bottom: 25px;right: -228px;width: 228px;}
+.main .main2{margin-top: 20px;overflow: hidden;}
+.main .main2 div.profile{width: 305px;height: 230px;background: url("images/公司简介背景.png") no-repeat;overflow: hidden;}
+.profilebg{background: url("images/菜鸟网站_14.png") no-repeat;width: 80px;height: 54px;display: inline-block;color: white;padding: 6px 0 0 8px;}
+.main .main2 div.profile div{overflow: hidden;}
+.main .main2 div.profile div span.fontmin{margin-top: 10px;}
+.main .main2 div.profile div a img{margin-top: 12px;margin-right: 10px;}
+.main .main2 div.profile p{text-indent: 20px;margin: 0 8px 30px 8px;width: 156px;text-align: left;}
+.main .main2 div.news{width: 406px;height: 230px;background: url("images/新闻中心背景.png") no-repeat;overflow: hidden;}
+.main .main2 div.news div{overflow: hidden;}
+.main .main2 div.news div span.fontmin{margin-top: 10px;}
+.main .main2 div.news div a img{margin-top: 12px;margin-right: 10px;}
+.main .main2 div.news img{margin-right: 8px;margin-left: 20px;}
+.main .main2 div.news p{margin-bottom: 10px;width: 240px;text-align: left;font-weight: bold;color: #50b540;}
+.main .main2 div.news span.newspan{width: 226px;color: #a8a8a8;display: inline-block;line-height: 20px;margin-bottom: 24px;}
+.main .main2 div.news span a{color: #50b540;margin: 0;}
+.main .main2 div.news a{margin-left: 30px;}
+.main .main2 div.news b{margin-right: 30px;color: #a8a8a8;font-weight: normal;}
+.main .main2 div.contact{width: 251px;height: 230px;background: url("images/联系我们背景.png") no-repeat;}
+.main .main2 div.contact p{width: 230px;font-size: 12px;color: #a8a8a8;margin-bottom: 10px;margin-left: 16px;}
+.main .main2 div.contact p img{margin-right: 6px;}
+.main .main2 div.contact p img.contact2,.main .main2 div.contact p img.contact3{margin-right: 10px;}
+.main .main3{overflow: hidden;position: relative;height: 279px;}
+.main .main3 img{cursor: pointer;}
+.main .main3 > ul.imglist{position:absolute;white-space:nowrap;}
+.main .main3 > ul.imglist li {float:left;width: 175px;height: 210px;background: url(images/菜鸟网站_03.png) no-repeat;padding-right:25px;}
+.main .main3 > ul.imglist li a.first img{margin: 3px 0 18px 0;border: 1px solid #000;}
+.main .main3 > ul.imglist li a.first{display: block;width: 169px;height: 128px;margin: 0 auto;}
+.main .main3 > ul.imglist li a span{display: block;width: auto;color: #828282;text-align: center;margin-top: 18px;}
+.main .main3 > ul.imglist li img{position: absolute;}
+
+.footer{margin-top: 16px;color: white;height: 90px;background: url("images/菜鸟网站_20.png") no-repeat;padding-top: 22px;}
+.footer p{padding-left: 330px;}
+.footer p.p2{margin-top: 10px;padding-left: 300px;}
+.footer p.p2 a{color: white;}
+
+#cover{width: 100%;height: 1200px;;background: rgba(0,0,0,0.8);position: absolute;top: 0;display: none;}
+#register{position: absolute;height: 206px;width: 280px;border: 1px solid black;background: #ffffff;display: none;}
+#register form{margin-left: 20px;margin-top: 30px;}
+#register form input.password{margin-top: 16px;margin-left: 14px;}
+#register form #commit,#register form #return{width: 50px;height: 30px;}
+#register form #commit{margin: 20px 0 0 50px;}
+#register form #return{margin: 20px 0 0 20px;}
+#register form #promot{color: red;margin-top: 4px;display: none;}
+#register form #promot2{color: red;}

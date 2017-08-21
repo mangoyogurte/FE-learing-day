@@ -1,0 +1,97 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td{
+    margin:0;
+    padding:0;
+}
+body, button, input, select, textarea{
+    font-size:14px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-stretch:normal;
+    font-size-adjust:none;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:1.5;
+}
+ul, ol, li{
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+}
+a{color: black;text-decoration:none;}
+a:hover{text-decoration:underline;}
+fieldset, img{border:0 none;}
+:focus{outline:10px;}
+
+body{color: black;}
+.head0{height: 33px;background: url("images/tbztc_04.png") repeat-x;}
+.container{width: 954px;margin: 0 auto;text-align: left;}
+/*CSS精灵*/
+.sprite {background:url("images/csssprite.png"); width:86px;}
+.icon1{height: 12px;}
+.icon2{height: 11px;}
+.icon3{height: 36px;}
+.home{width:12px; background-position:-48px 0;}
+.help{width:12px; background-position:-73px 0;}
+.more{width:11px; background-position:-25px 0;}
+.shopcart{width:12px; background-position:0 -1px;}
+.signup{width:136px; background-position:0 -40px;}
+
+.head0 .head1{overflow: hidden;height: 26px;padding-top: 7px;font-size: 12px;width: 954px;margin: 0 auto;}
+.head0 .head1 span,a,ul,input,button{float: left;}
+.head0 .head1 ul{overflow: hidden;width: 500px;padding-left: 110px;}
+.head0 .head1 ul li{float: left;width: 62px;}
+.head0 .head1 ul li.max{width: 74px;}
+.head0 .head1 ul li.min{width: 52px;}
+.head0 .head1 ul li a{overflow: hidden;}
+.head0 .head1 ul li a:hover span{text-decoration: underline;}
+.head0 .head1 ul li a img,span{float: left;}
+.head0 .head1 ul li a img{margin: 2px 1px 0 0;}
+.head0 .head1 ul li a img.more{margin: 2px 0 0 1px;}
+.head0 .head1 ul li span.line{margin-left: 5px;margin-right: 4px;}
+.head0 .head1 input{width: 94px;height: 16px;margin-left: 4px;}
+.head0 .head1 button{height: 20px;font-size: 12px;margin-left: 2px;margin-top: -2px;cursor: pointer;}
+.header .head2{height: 62px;overflow: hidden;}
+.header .head2 img,span{float: left;}
+.header .head2 span{font-size: 18px;width: 150px;color: grey;margin:12px 0 0 48px;}
+.header .head2 span span{font-size: 12px;margin-left: 15px;margin-top: 0;}
+.header .head3{height: 34px;}
+.header .head3 ul{overflow: hidden;width: 940px;padding-left: 10px;background: url("images/tbztc_09.png") no-repeat;height: 29px;padding-top: 5px;}
+.header .head3 ul li{float: left;width: 80px;margin-left: 34px;}
+.header .head3 ul li a{padding-left: 6px;color: white;}
+.header .head3 ul li a b{font-weight: 600;height: 29px;line-height: 29px;display: block;text-align: center;}
+.header .head3 ul li a:hover{color: #dd2a00;text-decoration: none;background: url("images/tbztc_13.png") left top no-repeat;padding-left: 6px;}
+.header .head3 ul li a:hover b{background: url("images/tbztc_14.png") right top no-repeat;padding-right: 6px;}
+.header .head4{height: 37px;}
+.header .head4 ul{overflow: hidden;width: 954px;background: url("images/tbztc_10.png") no-repeat;height: 29px;padding-top: 8px;font-size: 12px;}
+.header .head4 ul li{float: left;width: 62px;margin-left: 50px;}
+.header .head4 ul li a{padding-left: 4px;}
+.header .head4 ul li a b{font-weight: 600;height: 21px;line-height: 21px;display: block;text-align: center;}
+.header .head4 ul li a:hover{text-decoration: none;background: url("images/tbztc_11.png") left top no-repeat;padding-left: 4px;}
+.header .head4 ul li a:hover b{background: url("images/tbztc_12.png") right top no-repeat;padding-right: 4px;}
+
+.main{margin-top: 12px;background: url("images/tbztc_16.png") no-repeat;height: 1380px;}
+.main div{font-size: 11px;}
+.main div.placeholder{height: 216px;}
+.main div.p1{width: 450px;margin-left: 230px;height: 94px;line-height: 18px;}
+.main div.p1 span{color: #810f0b;width: 450px;font-weight: bold;}
+.main div.p2{width: 450px;margin-left: 306px;height: 94px;line-height: 18px;margin-top: 86px;}
+.main div.p2 span{color: #810f0b;width: 450px;font-weight: bold;}
+.main div.p3{width: 650px;margin-left: 108px;height: 94px;line-height: 18px;margin-top: 96px;}
+.main div.p3 span{color: #810f0b;width: 650px;font-weight: bold;}
+.main div.p4{width: 650px;margin-left: 108px;height: 94px;line-height: 18px;margin-top: 96px;}
+.main div.p4 span{color: #810f0b;width: 650px;font-weight: bold;}
+.main div.p5{width: 650px;margin-left: 108px;height: 94px;line-height: 18px;margin-top: 104px;}
+.main div.p5 span{color: #810f0b;width: 650px;font-weight: bold;}
+.main div.p6{width: 650px;margin-left: 108px;height: 94px;line-height: 18px;margin-top: 104px;}
+.main div.p6 span{color: #810f0b;width: 650px;font-weight: bold;}
+
+.footer{border-top: 1px solid #d1d7dc;margin-top: 20px;height: 200px;padding-top: 4px;font-size: 11px;}
+.footer ul.u1{overflow: hidden;margin-left: 117px;}
+.footer ul.u1 li{float: left;width: 60px;}
+.footer ul.u1 li a{color: #0044dd;}
+.footer ul.u2{overflow: hidden;margin-left: 136px;margin-top: 4px;}
+.footer ul.u2 li{float: left;width: 58px;}
+.footer ul.u2 li a{color: #0044dd;}
+.footer ul.u2 li.libig{width: 160px;}
+.footer ul.u2 li span{margin-left: 5px;margin-right: 4px;}
+.footer p{clear: both;margin-left: 361px;padding-top: 4px;}
