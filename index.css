@@ -29,6 +29,7 @@ fieldset, img{border:0 none;}
 
 
 .container{width: 1080px;margin: 0 auto;padding-top: 10px;}
-.title p{font-size: 20px;}
+.title p{font-size: 22px;}
+.title .p1{padding-left: 44px;}
 .work{padding-left: 30px;margin-top: 30px;}
 .work ul li a{font-size: 16px;}

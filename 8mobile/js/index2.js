@@ -1,8 +1,5 @@
-document.ontouchmove = function (e) {
-    e.preventDefault();
-};
 window.onload = function () {
-
+    
     //无缝轮播图
     (function () {
         var oImg = document.getElementById('content').children[0];
