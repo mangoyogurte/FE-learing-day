@@ -1,7 +1,8 @@
 window.onload = function () {
-    
+
     //无缝轮播图
     (function () {
+
         var oImg = document.getElementById('content').children[0];
         var oNum = document.getElementById('index').children[0].children;
         var oDiv = document.getElementById('carousel');
@@ -88,6 +89,11 @@ window.onload = function () {
             next();
             autoPlay();
         }
+
+        //阻止冒泡
+        oImg.addEventListener('touchmove', function(e) {
+            e.preventDefault();
+        }, false);
     })();
 
 
