@@ -2,4 +2,6 @@
 
 ### 菜鸟→入门→熟手→???
 
-![xx](images/negro.png)
+<figure>
+    <img src="images/negro.png" alt="xx">
+</figure>
