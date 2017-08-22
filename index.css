@@ -1,10 +1,10 @@
 /* css reset */
-body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td{
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td,figure{
     margin:0;
     padding:0;
 }
 body, button, input, select, textarea{
-    font-size:14px;
+    font-size:12px;
     font-family:Arial, Helvetica, sans-serif;
     font-style:normal;
     font-stretch:normal;
@@ -22,14 +22,17 @@ em{
     font-style: normal;
 }
 a{color: black;text-decoration:none;}
-a:hover{text-decoration:underline;}
+a:hover{text-decoration:none;}
 fieldset, img{border:0 none;}
 :focus{outline:10px;}
 /* reset end */
 
-
-.container{width: 1080px;margin: 0 auto;padding-top: 10px;}
-.title p{font-size: 22px;}
-.title .p1{padding-left: 44px;}
-.work{padding-left: 30px;margin-top: 30px;}
-.work ul li a{font-size: 16px;}
+.container{width: 680px;margin: 0 auto;padding-top: 40px;}
+.title span{font-size: 22px;margin-left: 170px;}
+.title .span2{padding-left: 88px;}
+.work{margin-top: 50px;overflow: hidden;}
+.work a{width: 154px;height: 128px;margin: 0 8px 20px 8px;border: 1px solid rgba(150, 150, 150, 0.314);float: left;background: rgb(242,242,242);border-radius: 2px;box-sizing: border-box;padding: 2px;}
+.work a p{white-space: nowrap;overflow: hidden;text-overflow: clip;margin: 4px 0 4px 6px;-webkit-mask-image: linear-gradient(to right, #000, #000, 100px, transparent);}
+.work a figure{width: 148px;height: 97px;overflow: hidden;}
+.work a figure img{width: 148px;height: 97px;transition:All 0.4s ease-in-out; -webkit-transition:All 0.4s ease-in-out; -moz-transition:All 0.4s ease-in-out; -o-transition:All 0.4s ease-in-out;}
+.work a figure img:hover{transform:scale(1.2); -webkit-transform:scale(1.2);    -moz-transform:scale(1.2); -o-transform:scale(1.2); -ms-transform:scale(1.2);}
