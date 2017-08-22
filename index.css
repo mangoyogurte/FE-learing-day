@@ -4,7 +4,7 @@ body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fo
     padding:0;
 }
 body, button, input, select, textarea{
-    font-size:12px;
+    font-size:14px;
     font-family:Arial, Helvetica, sans-serif;
     font-style:normal;
     font-stretch:normal;
@@ -27,12 +27,12 @@ fieldset, img{border:0 none;}
 :focus{outline:10px;}
 /* reset end */
 
-.container{width: 680px;margin: 0 auto;padding-top: 40px;}
-.title span{font-size: 22px;margin-left: 170px;}
+.container{width: 990px;margin: 0 auto;padding-top: 40px;}
+.title span{font-size: 22px;margin-left: 350px;}
 .title .span2{padding-left: 88px;}
 .work{margin-top: 50px;overflow: hidden;}
-.work a{width: 154px;height: 128px;margin: 0 8px 20px 8px;border: 1px solid rgba(150, 150, 150, 0.314);float: left;background: rgb(242,242,242);border-radius: 2px;box-sizing: border-box;padding: 2px;}
-.work a p{white-space: nowrap;overflow: hidden;text-overflow: clip;margin: 4px 0 4px 6px;-webkit-mask-image: linear-gradient(to right, #000, #000, 100px, transparent);}
-.work a figure{width: 148px;height: 97px;overflow: hidden;}
-.work a figure img{width: 148px;height: 97px;transition:All 0.4s ease-in-out; -webkit-transition:All 0.4s ease-in-out; -moz-transition:All 0.4s ease-in-out; -o-transition:All 0.4s ease-in-out;}
+.work a{width: 231px;height: 192px;margin: 0 8px 20px 8px;border: 1px solid rgba(150, 150, 150, 0.314);float: left;background: rgb(242,242,242);border-radius: 2px;box-sizing: border-box;padding: 4px;overflow: hidden;}
+.work a p{white-space: nowrap;overflow: hidden;text-overflow: clip;margin: 2px 0 6px 6px;-webkit-mask-image: linear-gradient(to right, #000, #000, 100px, transparent);}
+.work a figure{width: 221px;height: 158px;overflow: hidden;}
+.work a figure img{width: 221px;height: 158px;transition:All 0.4s ease-in-out; -webkit-transition:All 0.4s ease-in-out; -moz-transition:All 0.4s ease-in-out; -o-transition:All 0.4s ease-in-out;}
 .work a figure img:hover{transform:scale(1.2); -webkit-transform:scale(1.2);    -moz-transform:scale(1.2); -o-transform:scale(1.2); -ms-transform:scale(1.2);}
